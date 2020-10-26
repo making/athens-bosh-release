@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eu
+set -eux
 
 . /usr/local/bin/start-bosh -o $PWD/manifests/operations/enable-dns.yml
 
